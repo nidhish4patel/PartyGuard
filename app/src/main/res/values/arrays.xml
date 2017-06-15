@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="universities">
+        <item>Northwest Missouri State University</item>
+        <item>Georgia Tech</item>
+        <item>University of Nebraska</item>
+        <item>University of Arkansas</item>
+    </string-array>
+</resources>

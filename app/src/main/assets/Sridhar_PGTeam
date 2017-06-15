@@ -1,0 +1,30 @@
+[{
+		"GuardID": 1,
+        "FirstName": "Bill",
+		"LastName": "Clinton",
+		"GuardImageURL": "https://s3-us-west-2.amazonaws.com/gdp2/Heath-1.jpg",
+		"EmailAddress": "BillC@gmail.com",
+		"PhoneNumber": "6607285786",
+        "IsGuardAvailable": "False"
+	},
+
+	{
+		"GuardID": 2,
+        "FirstName": "Ben",
+		"LastName": "Wheatley",
+		"GuardImageURL": "https://s3-us-west-2.amazonaws.com/gdp2/Heath-1.jpg",
+		"EmailAddress": "BenWC@gmail.com",
+		"PhoneNumber": "6605285781",
+		"IsGuardAvailable": "False"
+	},
+
+	{
+		"GuardID": 3,
+        "FirstName": "Bran",
+		"LastName": "Mart",
+		"GuardImageURL": "https://s3-us-west-2.amazonaws.com/gdp2/Heath-1.jpg",
+		"EmailAddress": "BanMC@gmail.com",
+		"PhoneNumber": "6605285785",
+		"IsGuardAvailable": "True"
+	}
+]

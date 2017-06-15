@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.s525339.partygaurd_androidnachos">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <service
+            android:name="com.amazonaws.mobileconnectors.s3.transferutility.TransferService"
+            android:enabled="true" />
+
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".PgteamActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        </activity>
+ 
+        <activity android:name=".HowToUseActivity"
+                  android:screenOrientation="portrait" />
+        <activity android:name=".History"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".LocationActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+        <activity
+            android:name=".HostUserProfileScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfileDropDownMenu"
+            android:label="@string/title_activity_profile_drop_down_menu"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReportIssueActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HostAlertsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClaimAlert"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HostLogin"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".SignUpActivity"
+            android:parentActivityName=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".FraternitiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CustomDialog_ReportLocation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SampleActivity_ForAPI"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:parentActivityName=".LoginActivity"
+            android:screenOrientation="portrait" >
+
+        </activity>
+        <activity
+            android:name=".GuardAlert"
+            android:screenOrientation="portrait" >
+
+        </activity>
+        <activity
+            android:name=".GuardHistory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClaimAlertGuard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GuardProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UniversityActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".UserInformation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserSettings"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+             <activity
+            android:name=".CustomDialog_ReportIssue_OtherType"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserLogActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChangeLocationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GuardProfileInfo"
+            android:parentActivityName=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".EmergencyActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".GuardSignUpActivity"
+            android:parentActivityName=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        </activity>
+        <meta-data android:name="azure_server" android:value="http://partyguardservices20161110094537.azurewebsites.net/" />
+    </application>
+
+</manifest>

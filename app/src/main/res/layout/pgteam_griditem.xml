@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/clickableLayoutLL"
+    android:background="@color/colorWhite"
+
+    android:padding="15dp"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:background="@color/colorWhite"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        <ToggleButton
+            android:layout_width="80dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/toggle_selector"
+            android:textOff=""
+            android:textOn=""
+            android:id="@+id/pgTeamToggle"
+            android:layout_marginTop="5dp"
+            />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_gravity="center"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginBottom="1dp"
+         />
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="1dp"
+        android:id="@+id/profileBTN"
+
+
+        android:background="@color/colordarkgrey"
+        android:gravity="center"
+
+        android:text="View"
+        android:textColor="@color/colorWhite"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="5dp"
+
+        android:text="Medium Text"
+        android:textStyle="bold"
+        android:textColor="#D0583B"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        />
+
+
+</LinearLayout>

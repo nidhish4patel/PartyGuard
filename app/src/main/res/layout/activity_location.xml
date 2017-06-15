@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+    tools:context="com.example.s525339.partygaurd_androidnachos.LocationActivity">
+
+//fraternity list item
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+
+            android:onClick="fieldToFraternityIntent">
+
+            <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:id="@+id/fraternityImageView"
+            android:background="@color/colorlightgrey"
+                android:scaleType="fitCenter"
+                />
+            <!--android:scaleType="fitXY"-->
+
+
+                 <LinearLayout
+                     android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="70"
+                     android:orientation="vertical"
+
+                     >
+
+                         <TextView
+                             android:layout_width="match_parent"
+                             android:layout_height="0dp"
+                             android:layout_weight="50"
+
+                             android:textSize="30sp"
+                             android:textStyle="bold"
+
+                             android:background="@color/colorlightgrey"
+                             android:gravity="center_vertical"
+                             android:id="@+id/fraternityNameTV"/>
+
+                         <TextView
+                             android:layout_width="match_parent"
+                             android:layout_height="0dp"
+                             android:layout_weight="50"
+
+                             android:textSize="25sp"
+                             android:textStyle="bold"
+                             android:background="@color/colorlightgrey"
+                             android:gravity="top"
+                             android:id="@+id/fraternityFullNameTV"/>
+                 </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+//issue list layout
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:elevation="10dp"
+
+
+
+        android:background="@color/colorgrey"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:textSize="35sp"
+            android:id="@+id/issueNameTV"
+
+            android:paddingTop="27dp"
+            android:gravity="center_horizontal"
+
+            android:onClick="intentForIssue" />
+    </RelativeLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:id="@+id/locationListView"
+        android:textStyle="bold"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colordarkgrey"
+        />
+
+</LinearLayout>

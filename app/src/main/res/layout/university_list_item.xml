@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:translationZ="0dp"
+    android:background="@color/colorGrey">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id = "@+id/universityTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/colorBlack"/>
+
+    </LinearLayout>
+    <!--<RelativeLayout-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="0.5">-->
+        <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/listArrowButton"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:src="@mipmap/listarrow_icon"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:contentDescription="icon"&ndash;&gt;-->
+            <!--&lt;!&ndash;style="?android:attr/borderlessButtonStyle"/>&ndash;&gt;-->
+
+    <!--</RelativeLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="70"></LinearLayout>
+</LinearLayout>

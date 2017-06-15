@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/colors"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.50"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:background="#696969"
+        android:backgroundTintMode="screen"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorWhite"
+                android:src="@mipmap/user"
+                android:layout_height="match_parent"
+                android:id="@+id/guardprofileImageView"
+                android:onClick="guardPicUpload"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="50"
+                    android:inputType="text"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/guardprofileFirstNameET"
+                    android:hint="First Name"
+                    android:textColorHint="@color/colordarkgrey"
+                    android:textColor="@color/colorBlack"
+                    android:background="@android:drawable/editbox_background" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="50"
+                    android:inputType="text"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/guardprofileLastNameET"
+                    android:hint="Last Name"
+                    android:textColorHint="@color/colordarkgrey"
+                    android:textColor="@color/colorBlack"
+                    android:background="@android:drawable/editbox_background" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="65"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/colordarkgrey"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/guardprofileEmailET"
+                android:hint="Email Address"
+                android:background="@android:drawable/editbox_background" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:inputType="phone"
+                android:textColorHint="@color/colordarkgrey"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/guardprofileContactET"
+                android:hint="Contact"
+                android:background="@android:drawable/editbox_background" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:inputType="date"
+                android:textColorHint="@color/colordarkgrey"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/guardprofileDOBET"
+                android:hint="Date of Birth"
+                android:background="@android:drawable/editbox_background" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:gravity="center">
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:text="Edit"
+                android:id="@+id/guardprofileEditBtn"
+                android:background="@drawable/profile_rounded_button"
+                android:layout_centerVertical = "true"
+                android:layout_centerHorizontal = "true"
+                />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:text="Save"
+                android:id="@+id/guardprofileSaveBtn"
+                android:background="@drawable/profile_rounded_button"
+                android:layout_centerVertical = "true"
+                android:layout_centerHorizontal = "true"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:text="LogOut"
+                android:id="@+id/guardlogOutBtn"
+                android:background="@drawable/profile_rounded_button"
+                android:layout_centerVertical = "true"
+                android:layout_centerHorizontal = "true"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.60"
+        android:gravity="bottom">
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:id="@+id/guardAlertTabBTN"
+            android:background="@color/colorCrimson"
+            android:paddingTop="12dp"
+            android:scaleType="fitXY"
+            android:text="Alert"
+            android:textColor="#FFFFFF"
+            android:drawableTop="@drawable/alert"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorCrimson"
+            android:paddingTop="12dp"
+            android:clickable="true"
+            android:id="@+id/guardHistoryTabBTN"
+            android:scaleType="fitXY"
+            android:text="History"
+            android:textColor="#FFFFFF"
+            android:drawableTop="@drawable/history"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorCrimson"
+            android:paddingTop="12dp"
+            android:id="@+id/guardProfileTabBTN"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:text="Profile"
+            android:textColor="#FFFFFF"
+            android:drawableTop="@drawable/profile"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+

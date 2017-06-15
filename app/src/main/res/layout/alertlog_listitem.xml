@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id = "@+id/alertTV"
+                android:paddingTop="4dp"
+                android:textStyle="normal"
+                android:text="vinod"
+                android:textColor="@color/colorBlack"
+                android:textSize="25dp"
+                android:paddingLeft="30dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingTop="4dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:textColor="@color/colorBlack"
+                android:text="vid"
+                android:textStyle="normal"
+                android:id = "@+id/timeTV"
+                android:paddingLeft="30dp"
+                android:paddingBottom="10dp"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:paddingTop="4dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="vid"
+                android:textColor="@color/colorBlack"
+                android:paddingBottom="10dp"
+                android:textStyle="normal"
+                android:textSize="25dp"
+                android:id="@+id/dateTV"
+                android:layout_weight="60"/>
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+

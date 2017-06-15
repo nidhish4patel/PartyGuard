@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.example.s525339.partygaurd_androidnachos.UserInformation">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:background="@color/colordarkgrey"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/guardUserImage"
+            android:layout_gravity="fill" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:text="Phone: "
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp"
+            android:paddingLeft="25dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/userMobileNumber"
+            android:paddingLeft="0dp"
+            android:layout_weight="60"
+            android:textColor="@color/colorBlack"
+            android:background="@drawable/rounded_button3"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="22"
+            android:paddingLeft="25dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp"
+            android:text="Email: "
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/userEmailID"
+            android:paddingLeft="0dp"
+            android:textColor="@color/colorBlack"
+            android:layout_weight="53"
+            android:background="@drawable/rounded_button3"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+

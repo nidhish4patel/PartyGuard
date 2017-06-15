@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.example.s525339.partygaurd_androidnachos.ChangeLocationActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45"
+        android:background="@color/colordarkgrey"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_marginTop="50dp"
+            android:paddingTop="30dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:id="@+id/universityImage"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/editTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:clickable="true"
+            android:text="edit"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/saveTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:clickable="true"
+            android:text="save"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/locationTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="12dp"
+            android:text="Current Location"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/newLocationTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="12dp"
+            android:text="Select University"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/currentLocationTV"
+            android:text="Ottawa University"
+            android:textColor="@color/colorBlack"
+            android:background="@drawable/rounded_button3"
+            android:paddingLeft="12dp"
+            android:textSize="25sp"/>
+            <Spinner
+                android:id="@+id/universityMenu"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingTop="0dp"
+                android:paddingLeft="30dp"
+                android:textSize="50sp"
+                android:textAlignment="textStart"
+            />
+        </RelativeLayout>
+
+
+</LinearLayout>

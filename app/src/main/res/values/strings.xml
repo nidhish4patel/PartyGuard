@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PartyGuard</string>
+    <string name="title_activity_profile_drop_down_menu">ProfileDropDownMenu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="PartyGuard">PartyGuard</string>
+
+    <string name="slide_1_title">Welcome to PartyGuard</string>
+    <string name="slide_1_desc">The easiest and quickest way to report your problem</string>
+
+    <string name="slide_2_title">How to use the app?</string>
+    <string name="slide_2_desc">•	Select fraternity and the type of problem
+    •	Select your location and confirm your complaint</string>
+
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="choose_university">Choose University</string>
+</resources>
+

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.s525339.partygaurd_androidnachos.CustomDialog_ReportLocation">
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="70"-->
+        <!--android:orientation="vertical">-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="20">-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Are you sure?"-->
+            <!--android:textSize="30sp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="20">-->
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="50"-->
+            <!--android:textSize="25sp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:id="@+id/alertTypeTV"-->
+            <!--android:text="Alert Type:"-->
+            <!--/>-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="50"-->
+            <!--android:textSize="25sp"-->
+            <!--android:id="@+id/alertTypeNameTV"-->
+            <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="20">-->
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="50"-->
+            <!--android:textSize="25sp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:id="@+id/fraternityAcronymTV"-->
+            <!--android:text="Location:"-->
+            <!--/>-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="50"-->
+            <!--android:text="Location name"-->
+            <!--android:textSize="25sp"-->
+            <!--android:id="@+id/locationNameTV"-->
+            <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="20">-->
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Comments:"-->
+            <!--android:textSize="25sp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:id="@+id/commentsTV"-->
+            <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="20">-->
+
+            <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="40"-->
+            <!--android:id="@+id/dialogBoxCommentET"-->
+            <!--android:hint="Type comments here.."-->
+            <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="20"-->
+            <!--android:orientation="horizontal">-->
+            <!--<Button-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="33"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:textColor="#FFFFFF"-->
+            <!--android:text="Cancel"-->
+            <!--android:id="@+id/cancleBTN"-->
+            <!--android:background="@drawable/rounded_button"-->
+            <!--/>-->
+            <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="5"-->
+            <!--android:layout_height="50dp" />-->
+            <!--<Button-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="33"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:textColor="#FFFFFF"-->
+            <!--android:text="Ok"-->
+            <!--android:id="@+id/acceptBTN"-->
+            <!--android:background="@drawable/rounded_button"-->
+
+            <!--/>-->
+
+
+        <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Are you sure?"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="75"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:id="@+id/alertTypeTV"
+                android:text="Alert:"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:textSize="25sp"
+                android:id="@+id/alertTypeNameTV"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:id="@+id/fraternityAcronymTV"
+                android:text="Location:"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+
+                android:textSize="25sp"
+                android:id="@+id/locationNameTV"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comments:"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:id="@+id/commentsTV"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:id="@+id/dialogBoxCommentET"
+                android:hint="Type comments here.."
+                />
+        </LinearLayout>
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:layout_height="50dp"
+                android:textColor="#FFFFFF"
+                android:text="Cancel"
+                android:id="@+id/cancleBTN"
+                android:background="@drawable/rounded_button"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="50dp" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:layout_height="50dp"
+                android:textColor="#FFFFFF"
+                android:text="Ok"
+                android:id="@+id/acceptBTN"
+                android:background="@drawable/rounded_button"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        >
+
+    </LinearLayout>
+
+
+</LinearLayout>

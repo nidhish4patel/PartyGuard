@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/forHome"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:textSize="30sp"
+            />
+    </group>
+
+    <group
+        android:id="@+id/forProfile"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:title="Profile"
+            android:textSize="30sp"/>
+    </group>
+
+    <group
+        android:id="@+id/forLog"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/log"
+            android:title="Log"
+            android:textSize="30sp"/>
+    </group>
+
+    <group
+        android:id="@+id/forSettings"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/settings"
+            android:title="Settings"
+            android:textSize="30sp"/>
+    </group>
+
+    <group
+        android:id="@+id/forLocation"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/location"
+            android:title="Change Location"
+            android:textSize="30sp"/>
+    </group>
+
+
+
+
+</menu>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/colors"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.40"
+        android:orientation="vertical"
+        tools:context="com.example.s525339.partygaurd_androidnachos.ClaimAlert">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="80">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="3dp"
+                android:id="@+id/user_image"
+                android:src="@mipmap/user"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="25dp"
+                android:text="Katie Harris"
+                android:textSize="30sp"
+                android:textStyle="bold"
+
+                android:gravity="center_vertical"
+                android:id="@+id/userName"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:text="Kappa Delta"
+                android:layout_below="@id/userName"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+
+                android:gravity="center_vertical"
+                android:id="@+id/userLocation"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="10dp"
+                android:text="Age: "
+                android:layout_below="@id/userLocation"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                android:gravity="center_vertical"
+                android:id="@+id/userAge"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="10dp"
+                android:text="20 "
+                android:layout_below="@id/userLocation"
+                android:textSize="20sp"
+
+                android:gravity="center_vertical"
+                android:id="@+id/userAgeNum"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alert Type:   "
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:id="@+id/alertType"
+                android:layout_below="@id/user_image"
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="158dp"
+                android:text="Feeling Unsafe"
+                android:textSize="20sp"
+
+                android:gravity="center_vertical"
+                android:id="@+id/typeOfAlert"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Location:"
+                android:layout_below="@id/alertType"
+                android:textSize="25sp"
+                android:textStyle="bold"
+
+                android:gravity="center_vertical"
+                android:id="@+id/locateUser"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="187dp"
+                android:text="Main Floor"
+                android:textSize="20sp"
+
+                android:gravity="center_vertical"
+                android:id="@+id/locationInHome"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Comments:"
+                android:layout_below="@id/locateUser"
+                android:textSize="25sp"
+                android:textStyle="bold"
+
+                android:id="@+id/comments"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="168dp"
+                android:layout_marginTop="220dp"
+                android:text="A guy is harrasing me"
+                android:textSize="18sp"
+
+                android:gravity="center_vertical"
+                android:id="@+id/userComments"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4 : 30"
+                android:id="@+id/timeReport"
+                android:gravity="center"
+                android:textSize="45dp"
+                android:layout_below="@id/userComments"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/sampleTv"
+                android:layout_below="@id/timeReport"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Claim"
+                android:layout_below="@id/sampleTv"
+                android:layout_marginLeft="30dp"
+
+                android:background="@drawable/rounded_button"
+                android:id="@+id/claimBTN"
+                />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:text="Resolve"
+                android:layout_below="@id/sampleTv"
+
+                android:background="@drawable/rounded_button"
+                android:id="@+id/resolveBTN"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.60"
+        android:gravity="bottom">
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:background="@color/colorCrimson"
+            android:paddingTop="12dp"
+            android:scaleType="fitXY"
+            android:id="@+id/alertTabBTN"
+            android:text="Alert"
+            android:textColor="#FFFFFF"
+            android:drawableTop="@drawable/alert"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorCrimson"
+            android:paddingTop="12dp"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:text="History"
+            android:id="@+id/historyTabBTN"
+            android:textColor="#FFFFFF"
+            android:drawableTop="@drawable/history"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorCrimson"
+            android:paddingTop="12dp"
+            android:id="@+id/profileTabBTN"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:text="Profile"
+            android:textColor="#FFFFFF"
+            android:drawableTop="@drawable/profile"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+

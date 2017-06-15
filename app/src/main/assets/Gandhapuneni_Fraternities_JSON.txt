@@ -1,0 +1,48 @@
+[
+{
+"universityID": 1,
+"universityName": "Northwest Missouri State University",
+"universityImageUrl": "https://drive.google.com/uc?id=0B3E2EhpVIio1VHgxRks0Z0dWRk0",
+"Fraternities": [
+{
+"fraternityID": 1,
+"fraternityName": "SigEp",
+"fraternityeImageURL": "https://drive.google.com/uc?id=0By5v-xaILwvHWW0tZlFfaW5FQzA",
+"fraternityDescription": "Sigma Phi Epsilon",
+"paid": "True",
+"fraternityEmail": "sigmaPhi@mail.nwmissouri.edu"
+},
+{
+"fraternityID": 2,
+"fraternityName": "TKE",
+"fraternityeImageURL": "https://drive.google.com/uc?id=0By5v-xaILwvHWW0tZlFfaW5FQzA",
+"fraternityDescription": "Tau Kappa Epsilon",
+"paid": "True",
+"fraternityEmail": "sigmaPhiEpsilon@mail.nwmissouri.edu"
+}
+]
+},
+{
+"universityID": 2,
+"universityName": "Georgia Tech",
+"universityImageUrl": "https://drive.google.com/uc?id=0B3E2EhpVIio1OXMxMHlJVWtrazg",
+"Fraternities": [
+{
+"fraternityID": 1,
+"fraternityName": "SigPh",
+"fraternityeImageURL": "https://drive.google.com/uc?id=0By5v-xaILwvHWW0tZlFfaW5FQzA",
+"fraternityDescription": "Sigma Phi",
+"paid": "True",
+"fraternityEmail": "sigmaPhi@gatech.edu"
+},
+{
+"fraternityID": 2,
+"fraternityName": "SigPhEp",
+"fraternityeImageURL": "https://drive.google.com/uc?id=0By5v-xaILwvHWW0tZlFfaW5FQzA",
+"fraternityDescription": "Sigma Phi Epsilon",
+"paid": "True",
+"fraternityEmail": "sigmaPhiEpsilon@gatech.edu"
+}
+]
+}
+]
